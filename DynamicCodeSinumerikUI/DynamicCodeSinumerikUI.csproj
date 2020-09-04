@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DynmaicCodeSinumericTest\DynamicCodeSinumerikTest.csproj" />
+    <ProjectReference Include="..\DynamicCodeSinumerikTest\DynamicCodeSinumerikTest.csproj" />
   </ItemGroup>
 
 </Project>
