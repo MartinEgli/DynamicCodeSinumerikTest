@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SinumerikWrapperInterfaces\SinumerikWrapperInterfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Siemens.Sinumerik.Operate.Services.Wrapper">
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_32\Siemens.Sinumerik.Operate.Services.Wrapper\4.8.5.4__bdd90fa02fd1c4ee\Siemens.Sinumerik.Operate.Services.Wrapper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

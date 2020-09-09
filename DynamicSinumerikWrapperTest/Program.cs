@@ -1,4 +1,5 @@
 ﻿using System;
+using DynamicSinumerikWrapper;
 
 namespace DynamicCodeSinumerikTest
 {
@@ -6,7 +7,7 @@ namespace DynamicCodeSinumerikTest
     {
         static void Main(string[] args)
         {
-            SinumerikDynamicWrapper.Instance.GenerateClass();
+            DynamicSinumerikWrapperProvider.Instance.GenerateClass();
         }
     }
 }
