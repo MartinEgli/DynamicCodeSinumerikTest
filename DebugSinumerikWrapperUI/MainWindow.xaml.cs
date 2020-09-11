@@ -60,7 +60,7 @@ namespace DynamicSinumerikWrapperUI
 
         private void OpenConsole(object sender, RoutedEventArgs e)
         {
-           ConsoleHelper.ShowConsoleWindow();
+           DebugSinumerikWrapperUI.ConsoleHelper.ShowConsoleWindow();
         }
     }
 }

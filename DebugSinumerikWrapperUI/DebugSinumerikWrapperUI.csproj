@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DynamicSinumerikWrapper\DynamicSinumerikWrapper.csproj" />
     <ProjectReference Include="..\StaticSinumerikWrapper\StaticSinumerikWrapper.csproj" />
   </ItemGroup>

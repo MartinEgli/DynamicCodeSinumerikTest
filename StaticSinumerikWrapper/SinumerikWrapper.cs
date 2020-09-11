@@ -23,16 +23,22 @@ namespace StaticSinumerikWrapper
                     result = Convert.ToInt32(dataSvcItem.Value);
                 }
 
-                if (result == MAGIC_NUMBER_CONNECTED) return true;
+                if (result == MAGIC_NUMBER_CONNECTED)
+                {
+                    return true;
+                }
             }
             catch (DataSvcException)
             {
+                // ignore
             }
             catch (InvalidCastException)
             {
+                // ignore
             }
             catch (FormatException)
             {
+                // ignore
             }
 
             return false;
